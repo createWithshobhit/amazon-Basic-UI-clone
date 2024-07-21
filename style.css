@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+    
+}
+#nav-logo{
+    height: 65px;
+    width: 110px;
+
+}
+.img1{
+    height: 65px;
+    width: 110px;
+    
+}
+.border {
+    border: 2px solid transparent;
+    }
+.border:hover{
+border: 2px solid white;
+}
+
+.nav-add-top p{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.nav-add-btm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-add-btm i{
+    font-size: 18px;
+    
+}
+.nav-add-btm h1{
+    font-size: 1rem;
+    margin-right: 15px;
+}
+/**box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 45px;
+    width: 620px;
+    border-radius: 4px;
+
+}
+.nav-search:hover{
+    border: 2px solid rgb(184, 168, 26);
+}
+.search-select{
+background-color:#ebd6d6;
+width:60px;
+text-align: center;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+border: none;
+color: #000;
+}
+
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+    
+}
+.nav-search i{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fedb68;
+    color: #000;
+    border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+/**box4**/
+.nav-signin span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.95rem;
+    font-weight: 600S;
+}
+.nav-return span{
+    font-size: 0.7rem;
+}
+.nav-cart i{
+    font-size: 35px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-signin{
+    padding-top: 10px;
+}
+.nav-return{
+    padding-top: 10px;
+}
+.nav-cart{
+    padding: 10px;
+}
+
+.panel{
+    height: 35px;
+    width: 100%;
+    background-color:#222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 80%;
+}
+.panel-deals{
+    font-weight: 400;
+}
+/**hero-section**/
+.hero-section{
+    background-image: url(Images/hero_image.jpg);
+    background-size: cover;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+.hero-msg{
+    height: 40px;
+    font-size: 0.85rem;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.hero-msg p{
+    color: black;
+}
+.hero-msg a{
+    color:#007185;
+}
+/**shop-sct**/
+
+.shop-sct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e2e7e6;
+    
+    
+}
+
+.box{
+    height: 440px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box1 p {
+    color: #007185 ;
+    margin: 15px 15px;
+    
+}
+.box1 h2{
+    color: #000;
+    margin-left: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin: 1rem 1rem;
+}
+footer{
+    margin-top: 5px;
+}
+.footer-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.76rem;
+}
+.footer-panel2{
+    background-color: #222f3d;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    margin-top: 15px;
+    color: #dddddd;
+    font-size: 0.85rem;
+}
+
+.footer-panel3{
+    height: 70px;
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(Images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
